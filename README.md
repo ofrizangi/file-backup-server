@@ -12,6 +12,7 @@ A simple backup server developed in python allowing you to back-up a specific di
 
 
 ## Tools:
-1. Sockets - for connecting the server and the clients, and transfering the necessary information. Using TCP protocol.
-2. Watchdog library - for tracking the directory that is backed up.
+1. Sockets - for connecting the server and the clients, and transfering the necessary information.
+   Using TCP protocol.
+3. Watchdog library - for tracking the directory that is backed up.
 
