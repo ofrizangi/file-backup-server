@@ -1,4 +1,4 @@
-# file-backup-server
+# File backup server
 
 A simple backup server developed in python allowing you to back-up a specific directory in your computer.
 
@@ -9,4 +9,9 @@ A simple backup server developed in python allowing you to back-up a specific di
 4. The program allows you to transfer the backed-up directory from one computer to another – whenever you connect an existing user from a new computer the server will automatically push this directory to the new computer.
 5. Every change you did in the folder in one computer will automatically change in other computers that are connected to the same user.
 6. Working both in linux and windows
+
+
+# Tools:
+1. sockets - for connecting between the server and all the clients, and transfering the necessary information. Working by TCP protocol.
+2. watchdog library - for tracking the directory that is backed up.
 
