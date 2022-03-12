@@ -1,6 +1,6 @@
 # file-backup-server
 
-a client-server communication developed in python in order to make a backup server.
+A simple backup server developed in python allowing you to back-up a specific directory in your computer.
 
 # Featueres:
 1. Backing up all the files and folders in a specific directory and its subfolders.
